@@ -30,9 +30,11 @@ void heapify(int[] arr, int n, int i) {
 
 void heapSort(int[] arr) {
     int n = arr.length;
+    // Build Max Heap
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);
 
+    // Heap Sort Algothm
     for (int i = n - 1; i >= 0; i--) {
         int temp = arr[0];
         arr[0] = arr[i];
