@@ -1,3 +1,5 @@
+project('heapsort', 'vala', version: '1.0')
+
 heapsort_sources = [
   'main.vala',
   'util.vala'
@@ -12,4 +14,3 @@ executable('heapsort', heapsort_sources,
   vala_args: '--target-glib=2.58',  dependencies: heapsort_deps,
   install: true,
 )
-

@@ -24,7 +24,13 @@ int main (string[] args)
 	//int[] arr = {4,1,3,2,16,9,10,14,8,7};
 	int[] arr = {16,4,10,14,7,9,3,2,8,1};
     //TODO: Complete heap sort 
-    int[] sarr = ..; 
-    printArr (sarr);
-	return 0;
+    stdout.printf("Original array: ");
+    printArr(arr);
+    
+    heapSort(arr);
+    
+    stdout.printf("Sorted array: ");
+    printArr(arr);
+    
+    return 0;
 }
