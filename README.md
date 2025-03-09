@@ -1,18 +1,41 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/NqT6D9pg)
+# 📌 Heap Sort Implementation
 
-# Heap Sort Implementation
+## 🆔 Student Identity
+- **👤 Name:** Muhammad Axel Savero Fikri
+- **🆔 NIM:** 1313623004
 
-## Student Identity
-- **Name:** Muhammad Axel Savero Fikri
-- **NIM:** 1313623004
+---
 
-## How to Run
-// cd src
+## 🚀 About the Project
+Heap Sort is an efficient, comparison-based sorting algorithm that utilizes a binary heap data structure. This implementation demonstrates the fundamental workings of Heap Sort, offering an optimized way to sort an array of elements.
 
-1. Build the project:
-   meson setup build
-   cd build
-   meson compile
+### 🔹 Key Features:
+✅ Efficient sorting using Heap Sort algorithm
+✅ Demonstrates max-heap structure
+✅ Optimized for performance
 
-2. Run the program:
-   ./heapsort
+---
+
+## 🛠 How to Run
+Follow these steps to build and execute the Heap Sort program:
+
+### 🔧 Build the Project:
+```bash
+meson setup build
+cd build
+meson compile
+```
+
+### ▶️ Run the Program:
+```bash
+./heapsort
+```
+
+---
+
+## 📖 How Heap Sort Works
+1. **Build Max-Heap:** Convert the input array into a max-heap.
+2. **Heapify:** Swap the root (largest value) with the last element and reduce the heap size.
+3. **Repeat:** Continue heapifying until the entire array is sorted.
+
+Time Complexity: **O(n log n)** 🔥
