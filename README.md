@@ -15,4 +15,4 @@
    meson compile
 
 2. Run the program:
-   ./heap-sort.exe
+   ./heapsort
